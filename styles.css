@@ -1,5 +1,6 @@
 body {
   background-color:rgb(250, 239, 224);
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .title {
@@ -28,9 +29,10 @@ body {
   border-width: 1px;
 }
 
-.right {
+.column1 p {
   float: right;
   box-sizing: content-box;
+  background-color: rgb(248, 245, 233);
   width: 500px;
   border-color: cadetblue;
   border-style: dashed;
@@ -39,13 +41,22 @@ body {
   margin: 20px;
 }
 
-.left {
+.column2 p {
   float: left;
   box-sizing: content-box;
+  background-color: rgb(248, 245, 233);
   width: 500px;
   border-color: cadetblue;
   border-style: dashed;
   border-width: 1px;
   padding: 5px;
   margin: 25px;
+}
+
+.centered-image {
+  height: auto;
+  width: 50%;
+  margin: auto;
+  display: block;
+  padding: 10px;
 }
