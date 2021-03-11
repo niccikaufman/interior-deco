@@ -2,15 +2,30 @@ body {
   background-color:rgb(250, 239, 224);
 }
 
+.title {
+  text-align: center;
+  color: teal;
+}
 .column1 {
   column-count: 1;
   float: left;
+  background-color:rgb(243, 223, 198);
+  padding: 5px;
+  border-color: cadetblue;
+  border-style: dashed;
+  border-width: 1px;
+
 }
 
 .column2 {
   column-count: 1;
   margin: 5px;
   float: right;
+  background-color:rgb(243, 223, 198);
+  padding: 5px;
+  border-color: cadetblue;
+  border-style: dashed;
+  border-width: 1px;
 }
 
 .right {
