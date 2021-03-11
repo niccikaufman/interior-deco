@@ -1,0 +1,36 @@
+body {
+  background-color:rgb(250, 239, 224);
+}
+
+.column1 {
+  column-count: 1;
+  float: left;
+}
+
+.column2 {
+  column-count: 1;
+  margin: 5px;
+  float: right;
+}
+
+.right {
+  float: right;
+  box-sizing: content-box;
+  width: 500px;
+  border-color: cadetblue;
+  border-style: dashed;
+  border-width: 1px;
+  padding: 5px;
+  margin: 20px;
+}
+
+.left {
+  float: left;
+  box-sizing: content-box;
+  width: 500px;
+  border-color: cadetblue;
+  border-style: dashed;
+  border-width: 1px;
+  padding: 5px;
+  margin: 25px;
+}
